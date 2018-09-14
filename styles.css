@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+@-ms-viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
+* {
+  margin:0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #000;
+  background-color: #fff;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+header, main, article, p, h1, h2, footer {
+  display: block;
+}
+main {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+header h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #36486b;
+  padding: .5rem;
+  text-align: center;
+  margin: .5rem;
+
+  -webkit-text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  -moz-text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+
+  -webkit-box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 14px 0 rgba(0, 0, 0, 0.19), 6px 8px 20px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 14px 0 rgba(0, 0, 0, 0.19), 6px 8px 20px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 14px 0 rgba(0, 0, 0, 0.19), 6px 8px 20px 0 rgba(0, 0, 0, 0.18);
+
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  border-radius: .3rem;
+}
+
+article h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #c2970a;
+  text-decoration: none;
+}
+ a:hover {
+  color: #766f57;
+ }
+
+article.box {
+  background-color: #fff;
+  text-align: justify;
+  margin: 1rem;
+  padding: 1rem 1rem calc(1.8rem + 1.8rem + 1rem + 1rem + .5rem + 1px + 1px) 1rem;
+
+  position: relative;
+
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.button_area {
+  display: block;
+
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+div.button_area a.wishlist {
+  display: block;
+  color: #36486b;
+  font-weight: 500;
+  text-decoration: none;
+  padding-top: .5rem;
+
+  width: 10rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border-radius: .4rem;
+}
+div.button_area a.wishlist:hover {
+  -webkit-box-shadow: 2px 4px 5px rgba(179, 179, 179, 0.);
+  -moz-box-shadow: 2px 4px 5px rgba(179, 179, 179, 0.5);
+  box-shadow: 2px 4px 5px rgba(179, 179, 179, 0.5);
+}
+
+div.button_area a.wishlist:hover b {
+  color: red;
+}
+
+a.buttons_buy {
+  display: block;
+  width: 10rem;
+  height: 1.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  line-height: 1.8rem;
+  background-color: #88cc00;
+
+
+  border: 1px solid #88cc00;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border-radius: .4rem;
+
+  background-image: -webkit-linear-gradient(-90deg, #88cc00, #e6ffb3, #88cc00, #aaff00);
+  background-image: -moz-linear-gradient(-90deg, #88cc00, #e6ffb3, #88cc00, #aaff00);
+  background-image: linear-gradient(180deg, #88cc00, #e6ffb3, #88cc00, #aaff00);
+
+  -webkit-box-shadow: 0 4px 5px rgba(119, 179, 0, 0.5);
+  -moz-box-shadow: 0 4px 5px rgba(119, 179, 0, 0.5);
+  box-shadow: 0 4px 5px rgba(119, 179, 0, 0.5);
+
+}
+
+a.buttons_buy:hover {
+  background-color: #88cc00;
+  color: #fff;
+
+  -webkit-text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.6);
+  -moz-text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.6);
+  text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(54, 72, 107, 0.5);
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border-radius: .4rem;
+
+  background-image: -webkit-linear-gradient(-90deg, #3c4f77, #fff, #3c4f77, #778ebb);
+  background-image: -moz-linear-gradient(-90deg, #3c4f77, #fff, #3c4f77, #778ebb);
+  background-image: linear-gradient(180deg, #3c4f77, #fff, #3c4f77, #778ebb);
+
+  -webkit-box-shadow: 0 4px 5px rgba(60, 79, 119, 0.5);
+  -moz-box-shadow: 0 4px 5px rgba(60, 79, 119, 0.5);
+  box-shadow: 0 4px 5px rgba(60, 79, 119, 0.5);
+}
+
+img.img_left,
+img.img_right {
+  width: 45%;
+  height: auto;
+  -webkit-box-shadow: 1px 4px 5px rgba(60, 79, 119, 0.5);
+  -moz-box-shadow: 1px 4px 5px rgba(60, 79, 119, 0.5);
+  box-shadow: 1px 4px 5px rgba(60, 79, 119, 0.5);
+}
+
+img.img_left {
+  float: left;
+  margin-right: 1rem;
+}
+
+img.img_right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.clearfix:after {
+  content: ".";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+footer {
+  background-color: rgba(60, 79, 119, 0.1);
+  line-height: 1.5rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border-radius: .4rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+footer div#copyright {
+  font-size: 0.8rem;
+  padding: 8rem 4rem 1rem 4rem;
+  text-align: right;
+}
+footer a {
+  color: #36486b;
+}
+footer a:hover {
+  color: rgba(60, 79, 119, 0.6);
+}
+footer div#social_media {
+  padding: 0 4rem 0 4rem;
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  right: 40%;
+}
+#icon_tripadvisor {
+  width: 3rem;
+  height: 3rem;
+  background: url(media/social_media/logo_tripadvisor_black.png) no-repeat;
+  background-size: 2.8rem;
+}
+#icon_tripadvisor:hover {
+  background: url(media/social_media/logo_tripadvisor.png) no-repeat;
+  background-size: 2.8rem;
+}
+#icon_facebook {
+width: 3rem;
+height: 3rem;
+background: url(media/social_media/facebook_circle_white.png) no-repeat;
+background-size: 3rem;
+}
+#icon_facebook:hover {
+background: url(media/social_media/facebook_circle_blue.png) no-repeat;
+background-size: 3rem;
+}
+#icon_googleplus {
+width: 3rem;
+height: 3rem;
+background: url(media/social_media/google_plus_shape.png) no-repeat center;
+background-size: 2.4rem;
+}
+#icon_googleplus:hover {
+background: url(media/social_media/google_plus_red.png) no-repeat center;
+background-size: 2.4rem;
+}
+#icon_linkedin {
+width: 3rem;
+height: 3rem;
+background: url(media/social_media/icons_linkedin.png) no-repeat;
+background-size: 3rem;
+}
+#icon_linkedin:hover {
+background: url(media/social_media/icons_linkedin_blue.png) no-repeat;
+background-size: 3rem;
+}
+
+#icon_tripadvisor,
+#icon_facebook,
+#icon_googleplus,
+#icon_linkedin {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 2rem;
+}
+#icon_tripadvisor {
+    left: 5rem;
+}
+#icon_facebook {
+    left: 8.2rem;
+}
+#icon_googleplus {
+    left: 11.2rem;
+}
+#icon_linkedin {
+    left: 14.2rem;
+}
