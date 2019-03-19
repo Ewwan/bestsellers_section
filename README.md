@@ -3,5 +3,5 @@
 
 <p>To see the website's look and functionality visit this <a href="https://ewwan.github.io/bestsellers_section/.">LINK</a></p>
 
-<p><img src="https://i.imgur.com/ljRAEGu.jpg" title="Screenshot 1"></p>
-<p><img src="https://i.imgur.com/FzypaqH.jpg" title="Screenshot 2"></p>
+<p><a href="https://ewwan.github.io/bestsellers_section/."><img src="https://i.imgur.com/ljRAEGu.jpg" title="Screenshot 1"></a></p>
+<p><a href="https://ewwan.github.io/bestsellers_section/."><img src="https://i.imgur.com/FzypaqH.jpg" title="Screenshot 2"></a></p>
